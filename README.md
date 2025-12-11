@@ -1,4 +1,34 @@
 # Studentų pažymių valdymo programa 
+
+# v3.0 Diegimo paketai ir naudojimo vadovas
+
+Šioje programos versijoje pateikiami sukurti diegimo failai `setup.exe` ir `setup.msi`, parengti remiantis ankstesne v1.5 projekto versija. Į diegimo paketą įtraukti visi būtini programos komponentai, o diegimo metu automatiškai sukuriamos reikiamos nuorodos vartotojui.
+
+## Programos diegimas
+
+1. Paleiskite failą **setup.exe**.
+2. Programa bus įdiegta į numatytą katalogą:
+   C:\Program Files (x86)\VU\Indre-Skomantaite
+3. Diegimo procesas automatiškai sukuria:
+   - darbalaukio nuorodą į programą;
+   - Start Menu įrašą: **VU → Indre-Skomantaite**.
+4. Programos vykdymui nustatyti administratoriaus leidimai (UAC lygis: *requireAdministrator*), todėl paleidžiant bus suteikiamos aukštesnės teisės.
+
+## Programos paleidimas
+
+Įdiegę programą, ją galite paleisti keliais skirtingais būdais:
+
+1. Paspaudę nuorodą, esančią ant darbalaukio.
+2. Per **Start Menu → VU → Indre-Skomantaite** meniu punktą.
+3. Tiesiogiai iš įdiegimo vietos:
+C:\Program Files (x86)\VU\Indre-Skomantaite\galutinis.exe
+
+## Papildoma informacija
+
+- Diegimo paketas užtikrina, kad programa veiks su reikiamomis administratoriaus teisėmis, todėl failų kūrimas ir redagavimas Program Files aplanke yra saugus.  
+- Nuorodos ir diegimo struktūra padeda vartotojui lengvai rasti programą ir greitai ją paleisti.  
+- Ši versija orientuota į sklandų diegimą, patogų naudojimą ir didelių duomenų rinkinių apdorojimą, išlaikant ankstesnių versijų logiką ir funkcionalumą.
+
 # v1.5
 
 # Abstrakti bazinė klasė `Zmogus` ir iš jos išvestinė klasė `Studentas`
